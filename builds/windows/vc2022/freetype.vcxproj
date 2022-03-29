@@ -793,6 +793,11 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="..\..\..\src\sdf\ftbsdf.c" />
+    <ClCompile Include="..\..\..\src\sdf\ftsdf.c" />
+    <ClCompile Include="..\..\..\src\sdf\ftsdfcommon.c" />
+    <ClCompile Include="..\..\..\src\sdf\ftsdfrend.c" />
+    <ClCompile Include="..\..\..\src\sdf\sdf.c" />
     <ClCompile Include="..\ftdebug.c">
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug Multithreaded|Win32'">Disabled</Optimization>
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug Multithreaded|x64'">Disabled</Optimization>
