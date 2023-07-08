@@ -8,7 +8,7 @@
         <tags>native nativepackage C++ freetype</tags>
     </metadata>
     <files>
-        <file src="include\*"          target="build\native\include" />
+        <file src="include\**\*"       target="build\native\include" />
         <file src="lib\*"              target="build\native\lib"     />
         <file src="freetype.props"     target="build\native"         />
     </files>
